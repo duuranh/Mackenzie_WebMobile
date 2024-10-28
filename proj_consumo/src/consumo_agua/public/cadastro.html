@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Consumo de Água</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cadastro de Consumo de Água</h1>
+    <form id="cadastroForm">
+        <label for="userId">ID do Usuário:</label>
+        <input type="text" id="userId" required><br>
+        <label for="quantidade">Quantidade (m³):</label>
+        <input type="number" id="quantidade" required><br>
+        <label for="dataLeitura">Data de Consumo:</label>
+        <input type="date" id="dataLeitura" required><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script src="cadastro.js"></script>
+</body>
+</html>

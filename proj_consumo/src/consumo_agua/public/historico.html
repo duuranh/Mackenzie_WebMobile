@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Histórico de Consumo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Histórico de Consumo</h1>
+    <form id="historicoForm">
+        <label for="userId">ID do Usuário:</label>
+        <input type="text" id="userId" required><br>
+        <label for="dataInicial">Data Inicial:</label>
+        <input type="date" id="dataInicial" required><br>
+        <label for="dataFinal">Data Final:</label>
+        <input type="date" id="dataFinal" required><br>
+        <button type="submit">Consultar</button>
+    </form>
+    <div id="historicoResultados"></div>
+    <script src="historico.js"></script>
+</body>
+</html>
